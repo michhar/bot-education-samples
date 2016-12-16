@@ -1,0 +1,31 @@
+{
+  "name": "bot-cognitive-sample",
+  "version": "1.0.0",
+  "description": "A basic OCR bot built with Microsoft Bot Framework",
+  "main": "server.js",
+  "dependencies": {
+    "botbuilder": "^3.5.0-rc9",
+    "request": "^2.75.0",
+    "restify": "^4.1.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "na",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michhar/[TBD]"
+  },
+  "keywords": [
+    "ocr",
+    "bot"
+  ],
+  "author": "M. Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michhar/[TBD]"
+  },
+  "homepage": "https://github.com/michhar/[TBD]"
+}
