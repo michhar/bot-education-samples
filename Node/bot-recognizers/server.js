@@ -50,7 +50,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 // The model_url of format:  
 //   https://api.projectoxford.ai/luis/v2.0/apps/[model id goes here]?subscription-key=[key goes here]
 //  Replace the "" with your model url
-var model_url = "" || 'https://api.projectoxford.ai/luis/v2.0/apps/[model id goes here]?subscription-key=[key goes here];
+var model_url = "" || "https://api.projectoxford.ai/luis/v2.0/apps/[model id goes here]?subscription-key=[key goes here]";
 
 // Setup bot and default message handler
 var bot = new builder.UniversalBot(connector, function (session) {
