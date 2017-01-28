@@ -53,6 +53,7 @@ var bot = new builder.UniversalBot(connector, function (session) {
         session.beginDialog('go');
 });
 
+// This was the pre 3.5 way of initializing the root dialog (now can be be done with bot connector instantiation)...
 // bot.dialog('/',
 //     function (session) {
 //         session.send("Hello... I'm a testing bot.  Say anything to begin.");
