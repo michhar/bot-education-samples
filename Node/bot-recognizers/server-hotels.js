@@ -48,7 +48,7 @@ server.post('/api/messages', connector.listen());
 // Application Settings, or copy in from the luis.ai Publish settings model URL.
 // Created at https://luis.ai based on this guide:
 // 
-const LuisModelUrl = process.env.LUIS_MODEL || 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/36646af2-5f1d-4e3a-bbd8-502ba9aa944b?subscription-key=8c77a25a561945bbbc7dbda061026c70';
+const LuisModelUrl = process.env.LUIS_MODEL || 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/[app id goes here]?subscription-key=[key goes here]';
 
 // Main dialog with LUIS
 var recognizer = new builder.LuisRecognizer(LuisModelUrl);
