@@ -1,5 +1,5 @@
 # bot-education-samples
-A Node.js bots built with the MS Bot Framework for image OCR
+Node.js bots built with the MS Bot Framework for basic dialogs and intelligence
 
 ## To run
 
@@ -26,11 +26,27 @@ If you have the package.json, instead of the above commands then just:
 npm install
 ```
 
+### To run
+
+* Open VSCode or whichever code editor
+* In VSCode you can select Integrated Terminal under View - to get a terminal window in VSCode
+  * Or run on the command line in the bot folder
+* Type on command line:
+
+`node server.js`
+
+* Replace server.js which whichever "server\<something\>.js" you'd like to run
+* Open the Bot Framework emulator
+* Find the right port (should look like: http://localhost:\<port you specified in server.js\>/api/messages)
+* Leave fields blank for now and hit Connect
+* Enjoy!
+
+
 ### Write an app
 
 Write some bot code in VSCode or your dev env of choice and you may pull down some samples from:
 * https://github.com/Microsoft/BotBuilder-Samples
-* or this repo you are currently in which is a bot
+* or this repo you are currently in which has bots
 
 
 Follow instructions in the lab on this repo [here](https://github.com/michhar/bot-education-ocrbot/blob/master/LabStart.md) for any code you choose to write.
