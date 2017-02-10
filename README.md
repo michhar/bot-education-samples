@@ -3,27 +3,26 @@ Node.js bots built with the MS Bot Framework for basic dialogs and intelligence
 
 ## To run
 
-### Get the prereqs (all install links can be found [here](https://github.com/michhar/bot-education/wiki)):
-* Node.js (installs with npm now)
-* Bot Framework Console Emulator
-* Visual Studio Code or similar tool with intellisense and a debugger
-* (Recommended) Enhanced commad line tools such as Powershell
-* Knowledge of working on the command line in Windows or Unix (pretty much `dir == ls` and `move == mv` and a few others)
-* Git to pull down samples
+### Get the prereqs
+
+You'll be using Node.js, the Bot Framework Emulator, VSCode or similar editor, and the command line.  Get the prereqs listed here:
+
+https://github.com/Azure/bot-education/wiki/Syllabus-for-2-Day-Workshop#prerequisites
 
 ### On command line
 
-```
-npm init
-npm install --save botbuilder@3.6.0
-npm install --save restify
-```
-
 Right now I'm using botbuilder 3.6.0.  I'll update this soon, but for compatibility with other samples I chose this version.
 
-If you have the package.json, instead of the above commands then just:
+If you have the package.json (which you should in these folders),  then just:
 ```
 npm install
+```
+
+If you don't have a package.json do the following in the bot folder of your choosing:
+
+```
+npm install --save botbuilder@3.6.0
+npm install --save restify
 ```
 
 ### To run
@@ -42,6 +41,8 @@ npm install
 * Enjoy!
 
 
+You could also follow instructions in the lab on this repo [here](https://github.com/michhar/bot-education-ocrbot/blob/master/LabStart.md) for any code you choose to write.
+
 ### Write an app
 
 Write some bot code in VSCode or your dev env of choice and you may pull down some samples from:
@@ -49,4 +50,4 @@ Write some bot code in VSCode or your dev env of choice and you may pull down so
 * or this repo you are currently in which has bots
 
 
-Follow instructions in the lab on this repo [here](https://github.com/michhar/bot-education-ocrbot/blob/master/LabStart.md) for any code you choose to write.
+
