@@ -1,9 +1,9 @@
-# bot-education-ocrbot
-A Node.js bot built with the MS Bot Framework for image OCR
+# bot-education-samples
+A Node.js bots built with the MS Bot Framework for image OCR
 
 ## To run
 
-### Get the prereqs (all install links can be found [here](https://github.com/michhar/bot-education/wiki/ODSC-Conference-Syllabus#prerequisites-for-hands-on-labs)):
+### Get the prereqs (all install links can be found [here](https://github.com/michhar/bot-education/wiki)):
 * Node.js (installs with npm now)
 * Bot Framework Console Emulator
 * Visual Studio Code or similar tool with intellisense and a debugger
@@ -15,15 +15,14 @@ A Node.js bot built with the MS Bot Framework for image OCR
 
 ```
 npm init
-npm install --save botbuilder@3.2.3
+npm install --save botbuilder@3.6.0
 npm install --save restify
 ```
 
-Right now I'm using botbuilder 3.2.3.  I'll update this soon, but for compatibility with other samples I chose this version.
+Right now I'm using botbuilder 3.6.0.  I'll update this soon, but for compatibility with other samples I chose this version.
 
 If you have the package.json, instead of the above commands then just:
 ```
-npm init
 npm install
 ```
 
