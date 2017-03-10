@@ -1,2 +1,2 @@
-# bot-mlads-spring-2017
+# bot-confs
 A conference bot for faqs and schedule info
