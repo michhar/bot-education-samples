@@ -1,0 +1,23 @@
+{
+  "name": "basics-waterfall",
+  "version": "1.0.0",
+  "description": "prototype bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "na",
+  "license": "ISC",
+  "dependencies": {
+    "azure-search": "0.0.13",
+    "botbuilder": "^3.8.4",
+    "restify": "^4.3.0"
+  }
+}
